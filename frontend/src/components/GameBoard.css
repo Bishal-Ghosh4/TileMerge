@@ -1,0 +1,21 @@
+.game-board {
+  background: #bbada0;
+  border-radius: 6px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.board-grid {
+  display: grid;
+  gap: 10px;
+  aspect-ratio: 1;
+}
+
+.grid-cell {
+  background: rgba(238, 228, 218, 0.35);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
